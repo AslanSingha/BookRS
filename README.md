@@ -55,6 +55,10 @@ python -m backend.scripts.run_gradio
 
 http://127.0.0.1:7860
 
+## Docker testing
+```bash
+docker composer up --build
+```
 ## Author
 ### Supervisor: Mr. SOK Kimheng
 ### Name: Rin Singh

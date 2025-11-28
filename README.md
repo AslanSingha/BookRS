@@ -23,7 +23,7 @@ It combines **collaborative filtering (ALS)** and **semantic search (Sentence-BE
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1️⃣ Create virtual environment
 ```bash
@@ -56,8 +56,7 @@ python -m backend.scripts.run_gradio
 http://127.0.0.1:7860
 
 ## Author
-
+### Supervisor: Mr. SOK Kimheng
 ### Name: Rin Singh
 ### Major: Information and Communication Engineering (Year 5)
 ### Institution: Institute of Technology of Cambodia (ITC)
-### Supervisor: Mr. SOK Kimheng

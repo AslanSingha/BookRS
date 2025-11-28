@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  bookrs_api:
+    build: .
+    container_name: bookrs_api
+    ports:
+      - "8000:8000"          # host:container
+    volumes:
+      # Mount DB + artifacts so you can update them without rebuilding image
+      - ./bookrs.db:/app/bookrs.db
+      - ./artifacts:/app/artifacts
+    environment:
+      - APP_ENV=production
+    restart: unless-stopped

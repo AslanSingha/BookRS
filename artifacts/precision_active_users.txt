@@ -1,0 +1,2 @@
+Active-User Precision@10: 0.290805
+Users evaluated: 53368 (skipped 0)

@@ -1,0 +1,25 @@
+# Core scientific & data libraries
+numpy
+pandas
+scipy
+tqdm
+
+# Machine Learning & NLP
+torch
+sentence-transformers
+scikit-learn
+
+# Collaborative Filtering
+implicit
+
+# Database & backend
+SQLAlchemy
+fastapi
+uvicorn
+
+# Interface / visualization
+gradio==6.0.1
+
+# Utilities
+pyarrow
+python-dotenv

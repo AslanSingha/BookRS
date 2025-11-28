@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+
+# Docker files
+*.log
+
+# OS files
+.DS_Store
+
+# Env files
+.env
+
+# Backup
+backend/requirements.bak.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets (optional)
+dataset/
+
+# DB files (runtime only)
+bookrs.db
+*.db

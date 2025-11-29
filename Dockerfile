@@ -16,6 +16,9 @@ WORKDIR /app
 # 4) Copy requirements first
 COPY requirements.txt .
 
+# 4.5) Disable pip hash mode just in case
+ENV PIP_REQUIRE_HASHES=0
+
 # 5) Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 

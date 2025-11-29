@@ -3,7 +3,7 @@ version: "3.9"
 services:
   bookrs_api:
     build: .
-    container_name: bookrs_api
+    container_name: bookrs_prototype
     ports:
       - "8000:8000"          # host:container
     volumes:

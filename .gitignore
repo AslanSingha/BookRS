@@ -24,7 +24,7 @@ backend/requirements.bak.txt
 .ipynb_checkpoints/
 
 # Large datasets (optional)
-dataset/
+#dataset/
 
 # DB files (runtime only)
 bookrs.db

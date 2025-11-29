@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  bookrs_api:
+  bookrs:
     build: .
     container_name: bookrs_prototype
     ports:
